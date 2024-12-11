@@ -238,9 +238,10 @@ function exibirPergunta() {
 
             // Verifica se a resposta está correta
             if (alternativa === pergunta.respostaCorreta) {
-                posicoes[jogadorAtual] = Math.min(posicoes[jogadorAtual] + parseInt(resultado), numeroCasas - 1);
+                const movimento = nivel === "roxo" ? parseInt(resultado) * 2 : parseInt(resultado);
+                posicoes[jogadorAtual] = Math.min(posicoes[jogadorAtual] + movimento, numeroCasas - 1);
             } else {
-                posicoes[jogadorAtual] = Math.max(posicoes[jogadorAtual] - 1, 0);
+                posicoes[jogadorAtual] = Math.max(posicoes[jogadorAtual] - parseInt(resultado), 0);
             }
 
             console.log("Posições atualizadas:", posicoes);
