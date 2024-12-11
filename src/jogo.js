@@ -276,7 +276,7 @@ function realizarTurno() {
     }
     localStorage.setItem("jogadorAtual", jogadorAtual); // Salva o jogador atual antes de sair
     console.log("Jogador atual salvo no LocalStorage:", jogadorAtual);
-    window.location.href = "roleta.html"; // Direciona para a roleta
+    window.location.href = "Roleta.html"; // Direciona para a roleta
 }
 
 // Inicializa o tabuleiro e as interações
