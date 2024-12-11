@@ -137,7 +137,7 @@ function realizarTurno() {
         alert("Responda a pergunta atual antes de girar a roleta!");
         return;
     }
-    window.location.href = "roleta.html"; // Direciona para a roleta
+    window.location.href = "Roleta.html"; // Direciona para a roleta
 }
 
 // Inicializa o tabuleiro e as interações
