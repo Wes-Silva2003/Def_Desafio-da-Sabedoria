@@ -20,7 +20,7 @@
    - A cada rodada, o jogador gira a roleta para determinar quantas casas pode avançar (1 a 8).
    - Para avançar, o jogador precisa responder corretamente a uma pergunta sorteada apos o giro da roleta.
    - Se responder corretamente, ele avança o número de casas indicado pela roleta.
-   - Se errar, retornar casas de acordo com o valor o numero sorteado.
+   - Se errar, retornar casas de acordo com o valor do numero sorteado.
    - Caso o jogador acerte a resposta de dificuldade roxa ele avança o dobro de casa sorteadas
    - Caso o jogador erre a pergunta roxa ele sofre a mesma penalidade das outras perguntas.
    
