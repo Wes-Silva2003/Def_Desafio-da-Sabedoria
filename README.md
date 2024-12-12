@@ -5,8 +5,8 @@
 ### Critérios de Aceitação:
 
 1. *Tabuleiro e Componentes do Jogo*:
-   - O jogo deve incluir um tabuleiro com 50 casas, uma roleta numerada de 1 a 8, 4 peões (um para cada jogador) e 30 perguntas diferentes em quatro categorias de dificuldade.
-   - Cada pergunta deve oferecer 4 alternativas de resposta (A, B, C e D), sendo apenas uma a correta.
+   - O jogo deve incluir um tabuleiro com 50 casas, uma roleta numerada de 1 a 8, 4 peões (um para cada jogador) e 30 perguntas diferentes em cada umas das quatro categorias de dificuldade.
+   - Cada pergunta deve oferecer 4 alternativas de resposta, sendo apenas uma a correta.
 
 2. *Categorias e Penalidades*:
    - As perguntas devem ser divididas em quatro categorias de dificuldade:
